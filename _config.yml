@@ -21,7 +21,7 @@ repository               : "tom-boyapp/tomO.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/1670013083469.jpeg"
   name             : "Tom Ongwere"
   pronouns         : # example: "she/her"  
   bio              : "Professor"
