@@ -10,10 +10,10 @@ main:
     url: /teaching/    
     
   - title: "Lab/Research"
-    url: /Lab/Research/
+   # url: /Lab/Research/
         
   - title: "Github"
-    url: /Github/
+    #url: /Github/
     
   #- title: "CV"
     #url: /cv/
