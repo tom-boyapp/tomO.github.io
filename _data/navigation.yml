@@ -1,33 +1,17 @@
-# main links
 main:
   - title: "Publications"
     url: /publications/
 
   - title: "Teaching"
     url: /teaching/
-    children:
-      - title: "Undergraduate"
-        url: /teaching/undergraduate/
-      - title: "Graduate"
-        url: /teaching/graduate/
-      - title: "Workshops"
-        url: /teaching/workshops/
-    
+    submenu:
+      - title: "Students"
+        url: /teaching/students/
+      - title: "Research"
+        url: /teaching/research/
+
   - title: "Lab/Research"
-    url: /lab-research/
-    children:
-      - title: "Projects"
-        url: /lab-research/projects/
-      - title: "Publications"
-        url: /lab-research/publications/
-      - title: "Team"
-        url: /lab-research/team/
+    url: /Lab/Research/
         
   - title: "Pervasive Computing FTSum24"
-    url: /pervasive-computing-ftsum24/
-    
-  # - title: "CV"
-  #   url: /cv/
-    
-  # - title: "Guide"
-  #   url: /markdown/
+    url: /Github/
