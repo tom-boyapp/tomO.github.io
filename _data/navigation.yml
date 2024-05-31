@@ -1,17 +1,71 @@
-main:
-  - title: "Publications"
-    url: /publications/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .menu {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+        }
+        .menu > li {
+            margin-right: 20px;
+        }
+        .submenu {
+            list-style-type: none;
+            padding: 0;
+            display: none;
+        }
+        .menu > li:hover .submenu {
+            display: block;
+        }
+        .submenu > li {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li>
+            <a href="#teaching">Teaching</a>
+            <ul class="submenu">
+                <li><a href="#pervasive-computing-ftsum24">Pervasive Computing FTSum24</a></li>
+                <li><a href="#complex-care-lab">Complex Care Lab</a></li>
+            </ul>
+        </li>
+        <li><a href="#publications-research">Publications, Research</a></li>
+    </ul>
 
-  - title: "Teaching"
-    url: /teaching/
-    children:
-      - title: "Students"
-        url: /teaching/students/
-      - title: "Research"
-        url: /teaching/research/
-    
-  - title: "Complex Care Lab"
-    url: /lab-research/
-        
-  - title: "Pervasive Computing FTSum24"
-    url: /pervasive-computing-ftsum24/
+    <!-- Content Sections -->
+    <section id="home">
+        <h1>Home</h1>
+        <p>Welcome to the home page.</p>
+    </section>
+
+    <section id="teaching">
+        <h1>Teaching</h1>
+        <p>Overview of teaching activities.</p>
+    </section>
+
+    <section id="pervasive-computing-ftsum24">
+        <h1>Pervasive Computing FTSum24</h1>
+        <p>Details about the Pervasive Computing FTSum24 course.</p>
+    </section>
+
+    <section id="complex-care-lab">
+        <h1>Complex Care Lab</h1>
+        <p>Details about the Complex Care Lab course.</p>
+    </section>
+
+    <section id="publications-research">
+        <h1>Publications, Research</h1>
+        <p>Information on publications and research activities.</p>
+    </section>
+</body>
+</html>
