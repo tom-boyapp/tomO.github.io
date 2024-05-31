@@ -1,6 +1,3 @@
-To incorporate the specified navigation structure into your Jekyll configuration file, you'll need to add a navigation section. Here's the updated `_config.yml` file including your new menu structure:
-
-```yaml
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
